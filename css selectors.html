@@ -1,0 +1,42 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Selectors</title>
+	<style>
+        *{
+            margin: 10px;
+            padding: 5px;
+            font-family: monospace;
+            font-size: 30px;
+        }
+        .h1class{
+            background-color: rgb(27, 211, 162);
+            color: black;
+        }
+        #h1id{
+            background-color: rgb(255, 183, 0);
+            color: rgb(222, 103, 24);
+        }
+        h2,h3{
+            font-size: 35px;
+            color: rgb(226, 27, 130);
+            text-decoration-line: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Class Selector</h2>
+    <h1 class="h1class">
+        CSS selectors are used to "find"  the HTML elements you want to style.<br>
+
+    To select elements with a specific class, write a period (.) character, followed by the class name.</h1>
+    <h3>Id Selector</h3>
+    <h1 id="h1id">
+        The id selector uses the id attribute of an HTML element to select a specific element.<br>
+
+        The id of an element is unique within a page, so the id selector is used to select one unique element!<br>
+
+        To select an element with a specific id, write a hash  character, followed by the id of the element.<br></h1>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#cascading style sheet
+syntax for basic css tags::
+  selectur
+  {
+      property 1:value1;
+      property 1:value2;
+      .
+      .
+      .
+      .
+  }
+  \-->
+  there are three ways to include css into the web page::
+             --external
+             --internal
+             ::inline
+  <link ref="stylesheet" type="text/css" href="path"/>
+
+
+
+
+
+
+
+
+
+
