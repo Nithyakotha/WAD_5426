@@ -1,0 +1,24 @@
+ <html>
+     <head>
+
+     </head>
+     <body>
+         <h1>
+             hiii
+         </h1>
+         <h2>
+             this is javascript callback 
+         </h2>
+         <script>
+             function showData(name,amt){
+                 alert('hello'+name+'\n your amount'+amt);
+             }
+             function getData(callback){
+                 var name=prompt("Welcome\n What is your name?");
+                 var amt=prompt("enter some amount");
+                 callback(name,amt);
+            }
+            getData(showData);
+         </script>
+     </body>
+ </html>
